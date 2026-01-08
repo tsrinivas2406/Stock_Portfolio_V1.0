@@ -1,5 +1,5 @@
 import csv
-import mysql.connector
+# import mysql.connector
 
 import time as md_time
 from datetime import time as dt_time
@@ -139,3 +139,4 @@ if troubleshoot :
     print(datetime.now())
     previous_datetime = (datetime.now() - timedelta(days=1)).strftime("%Y_%m_%d_%H_%M")
     print(previous_datetime)
+

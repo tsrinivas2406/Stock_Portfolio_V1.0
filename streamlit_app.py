@@ -5,7 +5,7 @@ print("-"*100)
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
-import mysql.connector
+# import mysql.connector
 import os
 import json
 import random
